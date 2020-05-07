@@ -19,7 +19,7 @@
 
     <!-- Custom styles for this template-->
     <link href="css/sb-admin-2.min.css" rel="stylesheet">
-
+    <link href="css/sb-admin-2.css" rel="stylesheet">
 </head>
 
 <body id="page-top">
@@ -57,7 +57,6 @@
             </div>
 
             <!-- Nav Item - Pages Collapse Menu -->
-
             <li class="nav-item">
                 <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo"
                     aria-expanded="true" aria-controls="collapseTwo">
@@ -178,139 +177,117 @@
                 <!-- Begin Page Content -->
                 <div class="container-fluid">
                     <!-- Page Heading -->
-                    <div class="d-sm-flex align-items-center justify-content-between mb-4">
-                        <h1 class="h3 mb-0 text-gray-800">List Transaksi</h1>
-
-                    </div>
-
-                    <!-- DataTales Example -->
-                    <div class="card shadow mb-4">
-                        <div class="card-header py-3">
-                            <button type="button" class="btn btn-primary">
-                                List Transaksi <span class="badge badge-light">3</span>
-                            </button>
-                        </div>
-                        <div class="card-body">
-                            <div class="table-responsive">
-                                <table class="table table-bordered " id="dataTable">
-                                    <thead class="thead-dark">
-                                        <tr>
-                                            <th width="50">No</th>
-                                            <th width="200px">Tanggal</th>
-                                            <th width="300px">Nama Barang</th>
-                                            <th width="200px">Harga</th>
-                                            <th width="15px">Jumlah</th>
-                                            <th>Total Harga</th>
-                                            <th>Option</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td>1</td>
-                                            <td>03-03-2020</td>
-                                            <td>ROG Zephyrus S (GX531)</td>
-                                            <td>Rp 60.999.000</td>
-                                            <td>1</td>
-                                            <td>Rp 60.999.000</td>
-                                            <td>
-                                                <button type="button" class="btn btn-primary btn-sm">Detail</button>
-                                                <button type="button" class="btn btn-danger btn-sm">Hapus</button>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>2</td>
-                                            <td>01-03-2020</td>
-                                            <td>ROG Zephyrus S15</td>
-                                            <td>Rp 37.999.000</td>
-                                            <td>1</td>
-                                            <td>Rp 37.999.000</td>
-                                            <td>
-                                                <button type="button" class="btn btn-primary btn-sm">Detail</button>
-                                                <button type="button" class="btn btn-danger btn-sm">Hapus</button>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>3</td>
-                                            <td>12-12-2019</td>
-                                            <td>ROG Strix SCAR III</td>
-                                            <td>Rp 26.999.000</td>
-                                            <td>1</td>
-                                            <td>Rp 26.999.000</td>
-                                            <td>
-                                                <button type="button" class="btn btn-primary btn-sm">Detail</button>
-                                                <button type="button" class="btn btn-danger btn-sm">Hapus</button>
-                                            </td>
-                                        </tr>
-                                    </tbody>
-                                </table>
+                    <h1 class="h3 mb-2 text-gray-800">Detail Barang</h1>
+                    <!-- Content Row -->
+                    <div class="row">
+                        <!-- Area Chart -->
+                        <div class="card shadow mb-4">
+                            <div class="card-header py-3">
+                                <h6 class="m-0 font-weight-bold text-primary">ROG Zephyrus S (GX531)</h6>
+                            </div>
+                            <div class="card-body">
+                                <div class="card-img">
+                                    <img src="img/rog.jpg" height="300px" width="300px">
+                                </div>
                             </div>
                         </div>
-                    </div>
+                        <!-- Donut Chart -->
+                        <div class="col-xl-4 col-lg-5">
+                            <table class="table table-hover">
+                                <tbody>
+                                    <tr>
+                                        <td>Nama Barang </td>
+                                        <td>GX701GXR</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Jenis Barang</td>
+                                        <td>PC & Laptop</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Harga</td>
+                                        <td>
+                                            Rp 60.999.000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Jumlah barang</td>
+                                        <td>1
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Penjual</td>
+                                        <td>Faezal Wahyu</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Deskripsi</td>
+                                        <td>(Windows 10 Home/Intel® Core™ i7-9750H/RTX2080_v8G/32G/
+                                            1TB PCIe/Slim FHD IPS 300Hz)</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <!-- /.container-fluid -->
 
+                    </div>
+                    <!-- End of Main Content -->
+
+                    <!-- Footer -->
+                    <footer class="sticky-footer bg-white">
+                        <div class="container my-auto">
+                            <div class="copyright text-center my-auto">
+                                <span>Copyright &copy; UwU-X 2019</span>
+                            </div>
+                        </div>
+                    </footer>
+                    <!-- End of Footer -->
 
                 </div>
-                <!-- /.container-fluid -->
+                <!-- End of Content Wrapper -->
 
             </div>
-            <!-- End of Main Content -->
+            <!-- End of Page Wrapper -->
 
-            <!-- Footer -->
-            <footer class="sticky-footer bg-white">
-                <div class="container my-auto">
-                    <div class="copyright text-center my-auto">
-                        <span>Copyright &copy; UwU-X 2019</span>
+            <!-- Scroll to Top Button-->
+            <a class="scroll-to-top rounded" href="#page-top">
+                <i class="fas fa-angle-up"></i>
+            </a>
+
+            <!-- Logout Modal-->
+            <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+                            <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">×</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">Select "Logout" below if you are ready to end your current session.
+                        </div>
+                        <div class="modal-footer">
+                            <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+                            <a class="btn btn-primary" href="login.html">Logout</a>
+                        </div>
                     </div>
                 </div>
-            </footer>
-            <!-- End of Footer -->
-
-        </div>
-        <!-- End of Content Wrapper -->
-
-    </div>
-    <!-- End of Page Wrapper -->
-
-    <!-- Scroll to Top Button-->
-    <a class="scroll-to-top rounded" href="#page-top">
-        <i class="fas fa-angle-up"></i>
-    </a>
-
-    <!-- Logout Modal-->
-    <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-        aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
-                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">×</span>
-                    </button>
-                </div>
-                <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
-                <div class="modal-footer">
-                    <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
-                    <a class="btn btn-primary" href="login.html">Logout</a>
-                </div>
             </div>
-        </div>
-    </div>
 
-    <!-- Bootstrap core JavaScript-->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+            <!-- Bootstrap core JavaScript-->
+            <script src="vendor/jquery/jquery.min.js"></script>
+            <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-    <!-- Core plugin JavaScript-->
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+            <!-- Core plugin JavaScript-->
+            <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
-    <!-- Custom scripts for all pages-->
-    <script src="js/sb-admin-2.min.js"></script>
+            <!-- Custom scripts for all pages-->
+            <script src="js/sb-admin-2.min.js"></script>
 
-    <!-- Page level plugins -->
-    <script src="vendor/chart.js/Chart.min.js"></script>
+            <!-- Page level plugins -->
+            <script src="vendor/chart.js/Chart.min.js"></script>
 
-    <!-- Page level custom scripts -->
-    <script src="js/demo/chart-area-demo.js"></script>
-    <script src="js/demo/chart-pie-demo.js"></script>
+            <!-- Page level custom scripts -->
+            <script src="js/demo/chart-area-demo.js"></script>
+            <script src="js/demo/chart-pie-demo.js"></script>
 
 </body>
 

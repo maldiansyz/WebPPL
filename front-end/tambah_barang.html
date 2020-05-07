@@ -19,7 +19,7 @@
 
     <!-- Custom styles for this template-->
     <link href="css/sb-admin-2.min.css" rel="stylesheet">
-
+    <link href="css/sb-admin-2.css" rel="stylesheet">
 </head>
 
 <body id="page-top">
@@ -57,7 +57,6 @@
             </div>
 
             <!-- Nav Item - Pages Collapse Menu -->
-
             <li class="nav-item">
                 <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo"
                     aria-expanded="true" aria-controls="collapseTwo">
@@ -179,93 +178,95 @@
                 <div class="container-fluid">
                     <!-- Page Heading -->
                     <div class="d-sm-flex align-items-center justify-content-between mb-4">
-                        <h1 class="h3 mb-0 text-gray-800">List Transaksi</h1>
-
+                        <h1 class="h3 mb-0 text-gray-800">Tambah Barang</h1>
                     </div>
-
-                    <!-- DataTales Example -->
-                    <div class="card shadow mb-4">
-                        <div class="card-header py-3">
-                            <button type="button" class="btn btn-primary">
-                                List Transaksi <span class="badge badge-light">3</span>
-                            </button>
+                    <div class="form-group">
+                        <label class="col-md-3 col-xs-12 control-label">Nama Barang</label>
+                        <div class="col-md-6 col-xs-12">
+                            <div class="input-group">
+                                <span class="input-group-addon"><span class="fa fa-pencil"></span></span>
+                                <input type="text" class="form-control" name="username" required="required">
+                            </div>
                         </div>
-                        <div class="card-body">
-                            <div class="table-responsive">
-                                <table class="table table-bordered " id="dataTable">
-                                    <thead class="thead-dark">
-                                        <tr>
-                                            <th width="50">No</th>
-                                            <th width="200px">Tanggal</th>
-                                            <th width="300px">Nama Barang</th>
-                                            <th width="200px">Harga</th>
-                                            <th width="15px">Jumlah</th>
-                                            <th>Total Harga</th>
-                                            <th>Option</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td>1</td>
-                                            <td>03-03-2020</td>
-                                            <td>ROG Zephyrus S (GX531)</td>
-                                            <td>Rp 60.999.000</td>
-                                            <td>1</td>
-                                            <td>Rp 60.999.000</td>
-                                            <td>
-                                                <button type="button" class="btn btn-primary btn-sm">Detail</button>
-                                                <button type="button" class="btn btn-danger btn-sm">Hapus</button>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>2</td>
-                                            <td>01-03-2020</td>
-                                            <td>ROG Zephyrus S15</td>
-                                            <td>Rp 37.999.000</td>
-                                            <td>1</td>
-                                            <td>Rp 37.999.000</td>
-                                            <td>
-                                                <button type="button" class="btn btn-primary btn-sm">Detail</button>
-                                                <button type="button" class="btn btn-danger btn-sm">Hapus</button>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>3</td>
-                                            <td>12-12-2019</td>
-                                            <td>ROG Strix SCAR III</td>
-                                            <td>Rp 26.999.000</td>
-                                            <td>1</td>
-                                            <td>Rp 26.999.000</td>
-                                            <td>
-                                                <button type="button" class="btn btn-primary btn-sm">Detail</button>
-                                                <button type="button" class="btn btn-danger btn-sm">Hapus</button>
-                                            </td>
-                                        </tr>
-                                    </tbody>
-                                </table>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-md-3 col-xs-12 control-label">Jenis Barang</label>
+                        <div class="col-md-6 col-xs-12">
+                            <div class="input-group">
+                                <select class="form-control" id="exampleFormControlSelect1">
+                                    <option>Pilih Jenis Barang </option>
+                                    <option>PC & Laptop</option>
+                                    <option>Smartphone & Tablet</option>
+                                    <option>Electronic </option>
+                                    <option>Accesoriess</option>
+                                    <option>Lain-lain</option>
+                                </select>
                             </div>
                         </div>
                     </div>
 
+                    <div class="form-group">
+                        <label class="col-md-3 col-xs-12 control-label">Harga</label>
+                        <div class="col-md-6 col-xs-12">
+                            <div class="input-group">
+                                <span class="input-group-addon"><span class="fa fa-pencil"></span></span>
+                                Rp. <input type="text" class="form-control" name="tempat">
+                            </div>
+                        </div>
+                    </div>
 
-                </div>
-                <!-- /.container-fluid -->
+                    <div class="form-group">
+                        <label class="col-md-3 col-xs-12 control-label">Jumlah Barang</label>
+                        <div class="col-md-6 col-xs-12">
+                            <div class="input-group">
+                                <span class="input-group-addon"><span class="fa fa-pencil"></span></span>
+                                <input type="text" class="form-control" name="username" required="required">
+                            </div>
+                        </div>
+                    </div>
 
-            </div>
-            <!-- End of Main Content -->
-
-            <!-- Footer -->
-            <footer class="sticky-footer bg-white">
-                <div class="container my-auto">
-                    <div class="copyright text-center my-auto">
-                        <span>Copyright &copy; UwU-X 2019</span>
+                    <div class="form-group">
+                        <label class="col-md-3 col-xs-12 control-label">Gambar</label>
+                        <div class="col-md-6 col-xs-12">
+                            <input type="file" class="fileinput btn-primary" name="foto" id="filename"
+                                class="form-control" title="Browse file" />
+                            <span class="help-block">Input File Gambar</span>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-md-3 col-xs-12 control-label">Deskripsi</label>
+                        <div class="col-md-6 col-xs-12">
+                            <div class="input-group">
+                                <span class="input-group-addon"><span class="fa fa-pencil"></span></span>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </footer>
-            <!-- End of Footer -->
-
+                <div class="panel-footer">
+                    <button type="reset" class="btn btn-default">Clear Form</button>
+                    <button type="submit" class="btn btn-primary pull-right" onclick="return Validate()">Add</button>
+                </div>
+            </div>
+            </form>
         </div>
-        <!-- End of Content Wrapper -->
+        <!-- /.container-fluid -->
+
+    </div>
+    <!-- End of Main Content -->
+
+    <!-- Footer -->
+    <footer class="sticky-footer bg-white">
+        <div class="container my-auto">
+            <div class="copyright text-center my-auto">
+                <span>Copyright &copy; UwU-X 2019</span>
+            </div>
+        </div>
+    </footer>
+    <!-- End of Footer -->
+
+    </div>
+    <!-- End of Content Wrapper -->
 
     </div>
     <!-- End of Page Wrapper -->
